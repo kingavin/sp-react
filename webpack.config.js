@@ -10,7 +10,10 @@ const htmlWebpackPluginConfig = new htmlWebpackPlugin({
 module.exports = {
     devServer: {
         host: '0.0.0.0',
-        port: 8848
+        port: 8848,
+        historyApiFallback: {
+            index: '/index.html'
+        },
     },
     entry: './src/index.js',
     output: {

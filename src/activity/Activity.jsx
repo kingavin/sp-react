@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Activity extends Component {
-    render() {
-        return (
-            <div>
-                This is the activity PAGE
-            </div>
-        );
-    }
-}
+const Activity = () => {
+    return (
+        <div>
+            This is the activity PAGE
+        </div>
+    );
+};
 
 export default Activity;
